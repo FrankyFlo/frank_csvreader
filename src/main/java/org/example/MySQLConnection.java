@@ -183,7 +183,6 @@ public class MySQLConnection {
                 if (resultSet.next()){
                     city = resultSet.getString(columnCity);
                     countryForeignID = resultSet.getInt((columnIdCountry));
-
                 }
 
 
